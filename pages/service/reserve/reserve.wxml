@@ -1,0 +1,33 @@
+<!--pages/service/reserve/reserve.wxml-->
+<view class="container">
+    <view class="service-block food">
+        <view class="service-name">送餐</view>
+        <view class="service-profile">
+            <view>日期：2020-1-2</view>
+            <view>餐点：晚餐</view>
+        </view>
+        <view class="confirm">
+            预约
+        </view>
+    </view>
+    <view class="service-block clean">
+        <view class="service-name">打扫卫生</view>
+        <view class="service-profile">
+            <view>日期：2020-1-2</view>
+            <view>时间：13:00</view>
+        </view>
+        <view class="confirm">
+            预约
+        </view>
+    </view>
+    <view class="service-block wash">
+        <view class="service-name">洗衣</view>
+        <view class="service-profile">
+            <view>日期：2020-1-2</view>
+            <view>时间：16:00</view>
+        </view>
+        <view class="confirm">
+            预约
+        </view>
+    </view>
+</view>

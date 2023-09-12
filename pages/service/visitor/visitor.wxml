@@ -1,0 +1,7 @@
+<!--pages/service/visitor/visitor.wxml-->
+<view class="container">
+<view class="title">将二维码或数字发送给来访人以便登记</view>
+<image class="qrcode" mode="widthFix" src="/pages/service/visitor/images/QRCode.png"></image>
+<view class="visitor-code">3478</view>
+<i-button bind:click="handleClick" type="primary">生成新的访客码</i-button>
+</view>

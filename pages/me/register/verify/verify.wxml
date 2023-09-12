@@ -1,0 +1,7 @@
+<!--pages/me/register/verify/verify.wxml-->
+<i-cell-group>
+    <i-cell title="验证人脸" value="未验证" is-link></i-cell>
+    <i-cell title="验证银行卡" value="未验证" is-link></i-cell>
+    <i-cell title="验证身份证" value="未验证" is-link></i-cell>
+
+</i-cell-group>

@@ -1,0 +1,117 @@
+.user_info_view {
+  background: -webkit-linear-gradient(top, #40a3ff, white);
+  height: 180px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+.image_user_image {
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+}
+.user_nick_name {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  height: 20px;
+  line-height: 20px;
+  width: 100%;
+  text-align: center;
+}
+.order_title_back {
+  height: 27px;
+  width: 100%;
+  position: relative;
+}
+.order_title {
+  font-size: 15px;
+  display: block;
+  position: absolute;
+  top: 6px;
+  left: 20px;
+}
+.order_send_title {
+  font-size: 11px;
+  color: #d3d3d3;
+  float: right;
+  position: absolute;
+  height: 11px;
+  line-height: 11px;
+  right: 40px;
+  top: 8px;
+}
+.order_image {
+  position: absolute;
+  right: 20px;
+  top: 5px;
+  width: 17px;
+  height: 17px;
+}
+.order_list_style {
+  height: 60px;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.order_list_item_style {
+  width: 25%;
+  height: 80px;
+  float: left;
+}
+.order_item_image {
+  height: 40px;
+  width: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.order_item_title {
+  height: 15px;
+  line-height: 15px;
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+  display: block;
+  margin-top: 5px;
+  color: #333333;
+}
+.other_list_item {
+  height: 50px;
+  width: 100%;
+  position: relative;
+  display: block;
+}
+.other_item_tile {
+  font-size: 16px;
+  line-height: 16px;
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  color: #333333;
+}
+.other_list_image {
+  top: 16.5px;
+}
+
+.col-class{
+  text-align: center;
+}
+.order{
+  text-align: center;
+  width: 10rpx;
+  height: 10rpx;
+}
+.customer_service{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  color: #40a3ff;
+}

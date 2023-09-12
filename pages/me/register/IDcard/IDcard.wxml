@@ -1,0 +1,7 @@
+
+<!-- camera.wxml -->
+
+<!-- <button type="primary" bindtap="takePhoto" bind:click="handleSuccess">拍照</button> -->
+<!-- <i-button type="primary" bind:click="handleSuccess" bindtap="takePhoto">拍照</i-button>
+<i-toast id="toast" /> -->
+<button type="primary" bindtap="getLocalImage">点击选择照片</button>

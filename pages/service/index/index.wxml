@@ -1,0 +1,87 @@
+<view class="container">
+    <view class="room-no">
+        <text class="room-no-label">房间: </text>
+        <text>3004</text>
+    </view>
+
+    <i-grid i-class="big-items no-border">
+        <i-grid-item i-class="no-border no-padding">
+            <navigator url="/pages/service/room/room">
+                <view>
+                    <view class="icon-wrapper room">
+                        <image mode="widthFix" src="images/room.png" />
+                    </view>
+
+                    <view class="grid-text">我的房间</view>
+                </view>
+            </navigator>
+        </i-grid-item>
+        <i-grid-item i-class="no-border no-padding">
+            <navigator url="/pages/service/reserve/reserve">
+                <view>
+                    <view class="icon-wrapper service">
+                        <image mode="widthFix" src="images/service.png" />
+                    </view>
+                    <view class="grid-text">服务预约</view>
+                </view>
+            </navigator>
+        </i-grid-item>
+        <i-grid-item i-class="no-border no-padding">
+        <navigator url="/pages/service/visitor/visitor">
+            <view>
+                <view class="icon-wrapper visitor">
+                    <image mode="widthFix" src="images/visitor.png" />
+                </view>
+                <view class="grid-text">访客</view>
+            </view>
+            </navigator>
+        </i-grid-item>
+    </i-grid>
+
+    <view class="divider"></view>
+
+    <i-grid i-class="small-items no-border">
+        <i-grid-item i-class="no-border no-padding">
+            <view class="sm-icon-wrapper">
+                <image mode="widthFix" src="images/lost.png" style="padding-top: 0.5rem;" />
+            </view>
+            <view>
+                失物招领/找人
+            </view>
+        </i-grid-item>
+        <i-grid-item i-class="no-border no-padding">
+            <view class="sm-icon-wrapper">
+                <image mode="widthFix" src="images/customer.png" />
+            </view>
+            <view>
+                联系客服
+            </view>
+        </i-grid-item>
+    </i-grid>
+
+    <view class="divider"></view>
+
+    <navigator url="../orderFood/index/index">
+        <view class="ad-block">
+            <view class="ad-img-block">
+                <image class="ad-img" mode="center" src="images/restaurant.jpg" />
+            </view>
+            <view class="ad-profile">
+                <view class="ad-title">点餐</view>
+                <view class="ad-info">中餐 西餐</view>
+            </view>
+        </view>
+    </navigator>
+    
+    <navigator url="../gym/gym">
+        <view class="ad-block">
+            <view class="ad-img-block">
+                <image class="ad-img" mode="center" src="images/gym.jpg" />
+            </view>
+            <view class="ad-profile">
+                <view class="ad-title">健身房</view>
+                <view class="ad-info">器械 单车 有氧操</view>
+            </view>
+        </view>
+    </navigator>
+</view>

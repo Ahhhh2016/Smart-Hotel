@@ -1,0 +1,26 @@
+<!--pages/me/register/register.wxml-->
+<i-card title="张三" extra="3*****************0" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
+    <view slot="content">个人隐私信息安全保障中</view>
+    <view slot="footer">点击查看更多</view>
+</i-card>
+<view style = "background-color:#F5F5F5;height:20px;width:100%;"></view>
+<i-cell-group>
+  <navigator>
+    <i-cell title="个人信息" label="完善身份信息，体验更多服务" value="未完善" is-link></i-cell>
+  </navigator>
+
+  <navigator url="IDcard/IDcard">
+    <i-cell title="证件照片" label="上传证件照片，提升安全系数" value="未完善" is-link></i-cell>
+  </navigator>
+
+  <navigator url="face/face">
+    <i-cell title="人脸录入" label="录入人脸信息，完成人证核对" value="未完善" is-link></i-cell>
+  </navigator>
+
+  <navigator url="verify/verify">
+    <i-cell title="身份验证" label="完成身份验证，享受更多功能" value="未完善" is-link></i-cell>
+  </navigator> 
+</i-cell-group>
+<view style="justify-content: center;  display: flex;flex-direction: row;align-items: center; margin: 50px;">
+  <text style="color:#1890ff;">我的客服 | 账户更名</text>
+</view>

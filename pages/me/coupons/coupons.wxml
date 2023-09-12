@@ -1,0 +1,55 @@
+<van-dropdown-menu>
+  <van-dropdown-item value="{{ value1 }}" options="{{ option1 }}" />
+  <van-dropdown-item value="{{ value2 }}" options="{{ option2 }}" />
+</van-dropdown-menu>
+
+
+
+<van-card
+  num="5"
+  price="0.00"
+  desc="每日都会赠送一张免费的早餐券，早餐厅人脸识别后自动扣除(2020.05.20-2020.05.25)"
+  title="早餐券"
+  tag = "未使用"
+  origin-price = "15.00"
+  thumb="{{ imageURL1 }}"
+/>
+
+<van-card
+  num="3"
+  price="0.00"
+  desc="根据您过往的用餐喜好，增送您的甜点券，使用后自动扣除(2020.05.20-2020.05.25)"
+  title="甜点券"
+  tag = "未使用"
+  origin-price = "20.00"
+  thumb="{{ imageURL2 }}"
+/>
+
+<van-card
+  num="3"
+  price="0.00"
+  desc="根据您过往的用餐喜好，增送您的洗衣券，使用后自动扣除(2020.05.20-2020.05.25)"
+  title="洗衣券"
+  tag = "未使用"
+  origin-price = "15.00"
+  thumb="{{ imageURL3 }}"
+/>
+
+<van-tabbar active="{{ active }}" bind:change="onChange">
+  <van-tabbar-item icon="search">优惠券使用记录</van-tabbar-item>
+  <van-tabbar-item info="3">
+    <image
+      slot="icon"
+      src="{{ icon.normal }}"
+      mode="aspectFit"
+      style="width: 30px; height: 18px;"
+    />
+    <image
+      slot="icon-active"
+      src="{{ icon.active }}"
+      mode="aspectFit"
+      style="width: 30px; height: 18px;"
+    />
+    领取更多优惠券
+  </van-tabbar-item>
+</van-tabbar>

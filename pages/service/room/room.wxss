@@ -1,0 +1,10 @@
+/* pages/service/room/room.wxss */
+page {
+    background: #f6f6f6;
+}
+page .quit-btn {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}

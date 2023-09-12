@@ -1,0 +1,14 @@
+/* pages/service/visitor/visitor.wxss */
+.title {
+    text-align: center;
+    margin-top: 1rem;
+}
+.qrcode {
+    width: 80%;
+    margin: .5rem auto;
+}
+.visitor-code {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}

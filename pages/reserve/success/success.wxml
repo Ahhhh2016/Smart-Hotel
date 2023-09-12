@@ -1,0 +1,6 @@
+<view class="container" style="align-items: center">
+    <block style="margin: 5rem">
+        <icon type="success" size="80" />
+    </block>
+    <view style="font-size: 2rem; margin: 2rem">预约成功</view>
+</view>

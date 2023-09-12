@@ -1,0 +1,42 @@
+<!--pages/service/gym/gym.wxml-->
+<van-dropdown-menu>
+  <van-dropdown-item value="{{ value1 }}" options="{{ option1 }}" />
+  <van-dropdown-item value="{{ value2 }}" options="{{ option2 }}" />
+</van-dropdown-menu>
+
+<van-card
+  desc="针对全身的重量训练。适合希望迅速实现瘦身、塑形和健康效果的任何人。"
+  title="BODYPUMP"
+  tag = "力量训练"
+  thumb="{{ imageURL1 }}"
+/>
+<van-card
+  desc="受武术启发，燃烧高热量的非接触性训练。通过拳击、踢腿等动作,释放并强大自我。"
+  title="BODYCOMBAT"
+  tag = "有氧运动"
+  thumb="{{ imageURL2 }}"
+/>
+<van-card
+  desc="基于瑜伽动作的健身课程。有效提升你的身心状态和生活质量。集中精神，保持心态平和，使你的全身得到锻炼。"
+  title="BODYBALANCE"
+  tag = "柔韧性训练"
+  thumb="{{ imageURL3 }}"
+/>
+<van-card
+  desc="可以训练身体核心肌肉群的健身课程，塑造有力、精练的身材。"
+  title="CXWORX"
+  tag = "核心训练"
+  thumb="{{ imageURL4 }}"
+/>
+<van-card
+  desc="燃烧高热量的健身课程。动作既适合初学者，又能满足运动达人的需求，让你沉浸在运动的快乐中。"
+  title="BODYATTACK"
+  tag = "有氧运动"
+  thumb="{{ imageURL5 }}"
+/>
+<van-card
+  desc="室内骑行课程。在动感十足的音乐带领下，燃烧大量卡路里，达到快速健身的效果。"
+  title="RPM"
+  tag = "有氧运动"
+  thumb="{{ imageURL6 }}"
+/>

@@ -1,0 +1,4 @@
+/* pages/me/coupons/coupons.wxss */
+.thumb-class{
+  margin: 20rpx;
+}

@@ -1,0 +1,233 @@
+{
+  "description": "项目配置文件",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "enhance": false,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "nodeModules": true,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": false,
+    "useApiHook": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "enableEngineNative": false,
+    "bundle": false,
+    "useIsolateContext": true,
+    "useCompilerModule": false,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.10.1",
+  "appid": "wx7410af0bf5f01f3d",
+  "projectname": "FluentHotel",
+  "debugOptions": {
+    "hidedInDevtools": []
+  },
+  "isGameTourist": false,
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "search": {
+      "list": []
+    },
+    "conversation": {
+      "list": []
+    },
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "currentL": -1,
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "pages/me/index/index",
+          "pathName": "pages/me/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/me/items/items",
+          "pathName": "pages/me/items/items",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/me/coupons/coupons",
+          "pathName": "pages/me/coupons/coupons",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/service/gym/gym",
+          "pathName": "pages/service/gym/gym",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/service/orderFood/orderFood",
+          "pathName": "pages/service/orderFood/orderFood",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/service/orderFood/pages/cart/cart",
+          "pathName": "pages/service/orderFood/pages/cart/cart",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/service/orderFood/pages/index/index",
+          "pathName": "pages/service/orderFood/pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/service/orderFood/pages/index/index",
+          "pathName": "pages/service/orderFood/pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/service/orderFood/index/index",
+          "pathName": "pages/service/orderFood/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/service/reserve/reserve",
+          "pathName": "pages/service/reserve/reserve",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/reserve/index/index",
+          "pathName": "pages/reserve/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/me/index/index",
+          "pathName": "pages/me/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/me/register/register",
+          "pathName": "pages/me/register/register",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/me/register/face/face",
+          "pathName": "pages/me/register/face/face",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/me/register/register",
+          "pathName": "pages/me/register/register",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/me/register/face/face",
+          "pathName": "pages/me/register/face/face",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/me/register/IDcard/IDcard",
+          "pathName": "pages/me/register/IDcard/IDcard",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/me/register/verify/verify",
+          "pathName": "pages/me/register/verify/verify",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/reserve/index/index",
+          "pathName": "pages/reserve/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/reserve/index/index",
+          "pathName": "pages/reserve/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/service/index/index",
+          "pathName": "pages/service/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/me/index/index",
+          "pathName": "pages/me/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/service/index/index",
+          "pathName": "pages/service/index/index",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

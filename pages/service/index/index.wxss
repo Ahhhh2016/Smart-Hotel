@@ -1,0 +1,133 @@
+/* pages/service/index/index.wxss */
+.room-no {
+    /* text-align: center; */
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.room-no-label {
+    vertical-align: baseline;
+    padding-left: 1rem;
+    font-size: 1.6rem;
+    color: rgba(0, 0, 0, 0.671);
+}
+
+.container .no-border {
+    border: 0;
+}
+
+.big-items i-grid-item>view {
+    padding-top: auto;
+    text-align: center;
+    height: 8rem;
+}
+
+.icon-wrapper.room {
+    background-color: #24c6dc;
+}
+
+.icon-wrapper.service {
+    background-color: #3a89bd;
+}
+
+.icon-wrapper.visitor {
+    background-color: #514a9d;
+}
+
+.icon-wrapper image {
+    width: 3.5rem;
+    display: block;
+    margin: auto;
+    margin-top: 0.5rem;
+}
+
+.big-items i-grid-item .icon-wrapper {
+    position: absolute;
+    bottom: 3rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 0.5rem;
+}
+
+.grid-text {
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.divider {
+    position: relative;
+    left: -2rem;
+    width: 200%;
+    border-bottom: 5px solid #f6f6f6;
+}
+
+.small-items i-grid-item>view {
+    text-align: center;
+    height: 4.5rem;
+}
+
+.sm-icon-wrapper {
+    height: 3rem;
+}
+
+.sm-icon-wrapper image {
+    width: 3rem;
+    display: block;
+    margin: auto;
+}
+
+.container .no-padding {
+    padding: 0;
+}
+
+.ad-block {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 0.2rem;
+    padding: 0.1rem;
+    margin-top: 1rem;
+    position: relative;
+}
+
+.ad-img-block {
+    z-index: -2;
+    position: absolute;
+    margin: auto;
+    width: 99%;
+}
+
+.ad-img {
+    height: 9rem;
+    width: 100%;
+    /* opacity: 0.7; */
+}
+
+.container .ad-profile {
+    z-index: 5;
+    margin-top: 5rem;
+    height: 4rem;
+    background-color: rgba(0, 0, 0, 0.589)
+}
+
+.ad-title {
+    color: white;
+    z-index: 5;
+    font-size: 1.2;
+    padding: 0.5rem;
+}
+
+.ad-info {
+    color: rgb(211, 211, 211);
+    padding-left: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.ad-info-btn {
+    float: right;
+    width: 8rem;
+}

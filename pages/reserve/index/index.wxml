@@ -1,0 +1,38 @@
+<view class="container">
+    <view class="my-auto">
+        <view class="center-word">日期选择</view>
+        <navigator url="/pages/reserve/calendar/calendar">
+            <i-panel>
+                <view style="padding: 15px;">入住日期：{{enterDay}}</view>
+                <view style="padding: 15px;">退房日期：{{leaveDay}}</view>
+            </i-panel>
+        </navigator>
+        <i-button bind:click="handleClick" type="primary">查询</i-button>
+    </view>
+
+    <view wx:if="{{rooms.length}}" class="center-word">房间信息</view>
+
+    <i-panel wx:for="{{rooms}}" bindtap="chooseRoom" data-room-type="{{item.type}}">
+        <view class="big-font" style="padding: 15px;">{{item.type}}</view>
+        <view style="padding-left: 15px;">剩余房间数：{{item.num}}</view>
+        <view class="price" style="padding-bottom: 15px;">￥{{item.price}}</view>
+    </i-panel>
+</view>
+
+<i-action-sheet visible="{{ roomConfirmVisible }}" actions="{{ roomConfirmAction }}" bind:click="handleRoomConfirm">
+    <view slot="header" style="padding: 16px; font-size: 1rem">
+        <view class="big-font" style="padding-bottom: 1rem">确认房间信息</view>
+        <i-row>
+            <i-col span="5">日期：</i-col>
+            <i-col span="19">{{ enterDay }} - {{ leaveDay }}</i-col>
+        </i-row>
+        <i-row>
+            <i-col span="5">房型：</i-col>
+            <i-col span="19">{{ chosenRoomType }}</i-col>
+        </i-row>
+    </view>
+</i-action-sheet>
+
+	<!--pics文件夹下的background.jpg文件-->
+	<image class='background' src="../image/1.jpg" mode="aspectFill"></image>
+

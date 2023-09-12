@@ -1,0 +1,80 @@
+{
+  "pages": [
+    "pages/reserve/index/index",
+    "pages/reserve/calendar/calendar",
+    "pages/reserve/success/success",
+    "pages/service/index/index",
+    "pages/service/room/room",
+    "pages/service/reserve/reserve",
+    "pages/service/visitor/visitor",
+    "pages/me/index/index",
+    "pages/me/items/items",
+    "pages/me/coupons/coupons",
+    "pages/me/login/login",
+    "pages/me/register/face/face",
+    "pages/me/register/IDcard/IDcard",
+    "pages/me/register/verify/verify",
+    "pages/me/register/register",
+    "pages/service/orderFood/index/index",
+    "pages/service/gym/gym"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "FluentHotel"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/reserve/index/index",
+        "text": "预约",
+        "iconPath": "images/reserve.png",
+        "selectedIconPath": "images/reserve-actived.png"
+      },
+      {
+        "pagePath": "pages/service/index/index",
+        "text": "服务",
+        "iconPath": "images/service.png",
+        "selectedIconPath": "images/service-actived.png"
+      },
+      {
+        "pagePath": "pages/me/index/index",
+        "text": "我的",
+        "iconPath": "images/me.png",
+        "selectedIconPath": "images/me-actived.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "i-button": "components/dist/button/index",
+    "i-row": "components/dist/row/index",
+    "i-col": "components/dist/col/index",
+    "i-input": "components/dist/input/index",
+    "i-card": "components/dist/card/index",
+    "i-panel": "components/dist/panel/index",
+    "i-cell-group": "components/dist/cell-group/index",
+    "i-cell": "components/dist/cell/index",
+    "i-action-sheet": "components/dist/action-sheet/index",
+    "i-grid": "components/dist/grid/index",
+    "i-grid-item": "components/dist/grid-item/index",
+    "i-grid-icon": "components/dist/grid-icon/index",
+    "i-grid-label": "components/dist/grid-label/index",
+    "i-tag": "components/dist/tag/index",
+    "i-divider": "components/dist/divider/index",
+    "i-collapse": "components/dist/collapse/index",
+    "i-collapse-item": "components/dist/collapse-item/index",
+    "i-toast": "components/dist/toast/index",
+    "van-panel": "miniprogram_npm/@vant/weapp/panel/index",
+    "van-submit-bar": "miniprogram_npm/@vant/weapp/submit-bar/index",
+    "van-popup": "miniprogram_npm/@vant/weapp/popup/index",
+    "van-card": "miniprogram_npm/@vant/weapp/card/index",
+    "van-dropdown-menu": "miniprogram_npm/@vant/weapp/dropdown-menu/index",
+    "van-dropdown-item": "miniprogram_npm/@vant/weapp/dropdown-item/index",
+    "van-tabbar": "miniprogram_npm/@vant/weapp/tabbar/index",
+    "van-tabbar-item": "miniprogram_npm/@vant/weapp/tabbar-item/index",
+    "van-steps": "miniprogram_npm/@vant/weapp/steps/index",
+    "van-tree-select": "miniprogram_npm/@vant/weapp/tree-select/index",
+    "van-stepper": "miniprogram_npm/@vant/weapp/stepper/index"
+  }
+}
